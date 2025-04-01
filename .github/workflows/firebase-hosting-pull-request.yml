@@ -26,4 +26,4 @@ jobs:
           echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PRE_ORDER_FOOD_APP }}' > $HOME/.config/gcloud/application_default_credentials.json
 
       - name: Deploy to Firebase
-        run: firebase deploy --only hosting --project YOUR_PROJECT_ID
+        run: firebase deploy --only hosting --project pre-order-food-app
