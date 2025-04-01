@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monk The Premium Water</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<!-- AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <style>
+        
+    </style>
+</head>
+<body>
+
+
+<div class="Annousment-bar">
+    <div class="call-email">
+<a href="#"  style="display: flex; align-items: center; gap: 8px;">
+    <p>
+    <i class="fa-solid fa-phone" style="color: #222222;"></i>
+</p>
+    <p>+918000828084</p>
+</a>
+<a href="#" class="mobile-hidden" style="display: flex; align-items: center; gap: 8px;">
+   <p>
+    <i class="fa-solid fa-envelope" style="color: #222222;"></i>
+   </p>
+   <p>
+    sajidkhan87394@gmail.com
+   </p>
+</a>
+</div>
+<div class="social-icon">
+<p class="social-icon-bg">
+    <a href="#"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+</p>
+<p class="social-icon-bg">
+    <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+</p>
+<p class="social-icon-bg">
+    <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+</p>
+<p class="social-icon-bg">
+    <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+</p>
+</div>
+</div>
+
+
+<header  id="header">
+    <div class="logo">
+        <a href="#"> <img src="monk-logo-white.png" alt=""></a>
+    </div>
+    <style>
+        .li-btn{
+            background: #fff;
+            color: #000000;
+            padding: 10px;
+            width: 150px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+            transition: 0.3s;
+        }
+
+        .li-btn::after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: -100%;
+            position: absolute;
+            background-color: #FF8C42;
+            transition: 0.3s;
+        }
+
+
+        .li-btn:hover::after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: 0%;
+            position: absolute;
+            background-color: #FF8C42;
+        }
+
+        .li-btn:hover{
+            color: #fff !important;
+        }
+
+        .fade-in {
+    opacity: 0;
+    transition: all 1s ease;
+    position: relative;
+  }
+
+  .fade-left {
+    transform: translateX(-50px);
+  }
+
+  .fade-right {
+    transform: translateX(50px);
+  }
+
+  .fade-top {
+    transform: translateY(-50px);
+  }
+
+  .fade-bottom {
+    transform: translateY(50px);
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+
+     </style>
+    <div class="nav-link">
+         <ul>
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT US</a>
+            </li>
+            <li>
+                <a href="#">OUR STORY</a>
+            </li>
+            <li>
+                <a href="#">FAQ'S</a>
+            </li>
+            <div class="Exploregames_btn" style="margin: 0px;">
+                <div class="text-wrapping">
+                    <a id="headline01" class="headline01 rev01 box"
+                        href="#" style="min-width: 162px; padding: 5px 25px;">CONTACT US
+                    </a>
+                </div>
+            </div>
+            <!-- <li class="li-btn">
+                <a href="#" style="position: absolute; z-index: 99999; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">CONTACT US</a>
+            </li> -->
+         </ul>
+    </div>
+
+    <!--mobile menu-->
+     <!-- Overlay -->
+     <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+     <!-- Hamburger Icon -->
+     <div class="menu-icon" onclick="openMenu()">&#9776;</div>
+
+     <!-- Mobile Menu -->
+     <div class="mobile-menu" id="mobileMenu">
+         <div class="close-btn" onclick="closeMenu()">&times;</div>
+         <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Services</a></li>
+             <li>
+                <a href="#">Contact</a>
+            </li>
+         </ul>
+     </div>
+</header>
+
+
+
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <a href="#" class="swiper-slide">
+            <picture>
+                <source media="(min-width: 769px)" srcset="MONK_banner_3.jpg">
+                <source media="(max-width: 768px)" srcset="MONK_banner_1.jpg">
+                <img src="/placeholder.svg?height=600&width=1600" alt="Nature Landscape">
+            </picture>
+        </a>
+        <a href="#" class="swiper-slide">
+            <picture>
+                <source media="(min-width: 769px)" srcset="MONK_banner_4.jpg">
+                <source media="(max-width: 768px)" srcset="MONK_banner_2.jpg">
+                <img src="/placeholder.svg?height=600&width=1600" alt="Technology Concept">
+            </picture>
+        </a>
+        <a href="#" class="swiper-slide">
+            <picture>
+                <source media="(min-width: 769px)" srcset="MONK-banner-3.jpg">
+                <source media="(max-width: 768px)" srcset="MONK-mobile3.jpg">
+                <img src="/placeholder.svg?height=600&width=1600" alt="Travel Destination">
+            </picture>
+        </a>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+
+<section class="fixed-section">
+    <div class="content-section">
+        <h2 class="fade-in fade-right">About Us - MONK Premium Water</h2>
+        <p class="fade-in fade-right"><b>1.Alkaline Water for Better Health</b> - Unlike artificially enhanced waters, Monk Premium maintains its naturally alkaline pH and of all waters balances its acidity, digests, and promotes the general well being of the individual. Drinking alkaline waters aids hydration, detoxification and helps the body function properly.</p>
+        <p class="fade-in fade-right"><b>2.Hydration Essential Minerals</b> - Our water has vital refreshing minerals calcium, magnesium and potassium, that are greatly helpful for health and deeply required for hydration. These good minerals help maintain the flavor of the water and are critical to sustain the electrolyte balance of the body and recharge its energy.</p>
+        <p class="fade-in fade-right"><b>3.Sustainable & Eco-Friendly Practices</b> - Our dedication towards thr sustainability and responsible care for the environment sets us apart. The Monk Premium brand uses both water conservation sourcing methods as well as recyclable, eco-friendly packaging that drastically minimize plastic waste and greatly reduce carbon footprint. Supporting the Monk Premium Brand means helping to nurture and protect the environment.</p>
+
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
+        <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width: 130px; border: 1px lightgray solid ; padding: 5px;">
+            <img src="check-button.png" alt="check-button">
+            <h4>Innovative</h4>
+        </span>
+        <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width: 110px; border: 1px lightgray solid ; padding: 5px;">
+            <img src="check-button.png" alt="check-button">
+            <h4>Targeted</h4>
+        </span>
+        <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width: 130px; border: 1px lightgray solid ; padding: 5px;">
+            <img src="check-button.png" alt="check-button">
+            <h4>Transparent</h4>
+        </span>
+        <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width: 150px; border: 1px lightgray solid ; padding: 5px;">
+            <img src="check-button.png" alt="check-button">
+            <h4>High Efficacy</h4>
+        </span>
+        <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width: 80px; border: 1px lightgray solid ; padding: 5px;">
+            <img src="check-button.png" alt="check-button">
+            <h4>CSR</h4>
+        </span>
+        
+    </div>
+    <!-- <a href="#" class="LEARN_MORE_BTN fade-in fade-top" style="margin-top: 20px;">Learn More</a> -->
+    <div class="Exploregames_btn" >
+        <div class="text-wrapping">
+            <a id="headline01" class="headline01 rev01 box"
+                href="#" style="min-width: 162px; padding: 5px 25px;">Learn More
+            </a>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <style>
+        .mb-content span{
+            cursor: pointer;
+        }
+        .content-section span{
+            cursor: pointer;
+        }
+    </style>
+    <section class="mb-bg">
+
+        <div class="mb-content" style="padding: 26px 15px;
+    width: 100%;">
+            <h2 class="fade-in fade-left">About Us - MONK Premium Water</h2>
+            <p class="fade-in fade-right"><b>1.Alkaline Water for Better Health</b> - Unlike artificially enhanced waters, Monk Premium maintains its naturally alkaline pH and of all waters balances its acidity, digests, and promotes the general well being of the individual. Drinking alkaline waters aids hydration, detoxification and helps the body function properly.</p>
+            <p class="fade-in fade-left"><b>2.Hydration Essential Minerals</b> - Our water has vital refreshing minerals calcium, magnesium and potassium, that are greatly helpful for health and deeply required for hydration. These good minerals help maintain the flavor of the water and are critical to sustain the electrolyte balance of the body and recharge its energy.</p>
+            <p class="fade-in fade-right"><b>3.Sustainable & Eco-Friendly Practices</b> - Our dedication towards thr sustainability and responsible care for the environment sets us apart. The Monk Premium brand uses both water conservation sourcing methods as well as recyclable, eco-friendly packaging that drastically minimize plastic waste and greatly reduce carbon footprint. Supporting the Monk Premium Brand means helping to nurture and protect the environment.</p>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; margin-bottom: 20px;">
+                <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width:35%; border: 1px lightgray solid ; padding: 5px;">
+                    <img src="check-button.png" alt="check-button">
+                    <h4>Innovative</h4>
+                </span>
+                <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width:37%;  border: 1px lightgray solid ; padding: 5px;">
+                    <img src="check-button.png" alt="check-button">
+                    <h4>Targeted</h4>
+                </span>
+                <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width:45%;  border: 1px lightgray solid ; padding: 5px;">
+                    <img src="check-button.png" alt="check-button">
+                    <h4>Transparent</h4>
+                </span>
+                <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width:40%;  border: 1px lightgray solid ; padding: 5px;">
+                    <img src="check-button.png" alt="check-button">
+                    <h4>High Efficacy</h4>
+                </span>
+                <span class="fade-in fade-bottom" style="display: flex; align-items: center; justify-content: space-around; width:21%;  border: 1px lightgray solid ; padding: 5px;">
+                    <img src="check-button.png" alt="check-button">
+                    <h4>CSR</h4>
+                </span>
+            </div>
+            <!-- <a href="#" class="LEARN_MORE_BTN">Learn More</a> -->
+            <div class="Exploregames_btn">
+                <div class="text-wrapping">
+                    <a id="headline01" class="headline01 rev01 box"
+                        href="#" style="min-width: 162px; padding: 5px 25px;">Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <div class="social-icon-1 instagram">
+            <i class="fab fa-instagram"></i>
+            <span class="icon-label">Instagram</span>
+        </div>
+        <div class="social-icon-1 whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="icon-label">WhatsApp</span>
+        </div>
+        <div class="social-icon-1 call">
+            <i class="fas fa-phone"></i>
+            <span class="icon-label">Call Us</span>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+
+
+
+
+<div style="background-color: #000000; padding: 15px 10px; margin-top: 0px;">
+    <h2 style="text-align: center; color: #fff;" class="fade-in fade-bottom">Why MONK Premium Water Stands Out</h2>
+  
+
+   <section class="Monk-benefits-section">
+    <!-- Benefit Card 1 -->
+    <div class="Monk-benefits-card" >
+        <img src="drop.png" alt="drop" width="50px" height="50px" style="margin-bottom: 10px;" class="fade-in fade-right">
+        <h3 class="Monk-benefits-title fade-in fade-right">Eco-Friendly </h3>
+        <p class="Monk-benefits-description fade-in fade-right">Monk Premium is dedicated to sustainable sourcing and eco-friendly packaging to ensure environmental responsibility.</p>
+    </div>
+    
+    <!-- Benefit Card 2 -->
+    <div class="Monk-benefits-card">
+        <img src="drop.png" alt="drop" width="50px" height="50px" style="margin-bottom: 10px;" class="fade-in fade-left">
+        <h3 class="Monk-benefits-title fade-in fade-left">Total Hydration </h3>
+        <p class="Monk-benefits-description fade-in fade-left">Monk Premium Water has a well-balanced composition of minerals that enhances my hydration and keeps me refreshed and full of energy.</p>
+    </div>
+
+    <div class="img-middle">
+        <img src="transperent.png" alt="" class="fade-in fade-bottom">
+    </div>
+    
+    <!-- Center Image -->
+    <div class="Monk-benefits-card" >
+       
+    </div>
+    
+    <!-- Benefit Card 3 -->
+    <div class="Monk-benefits-card">
+        <img src="drop.png" alt="drop" width="50px" height="50px" style="margin-bottom: 10px;" class="fade-in fade-right">
+        <h3 class="Monk-benefits-title fade-in fade-right">Naturally Alkaline</h3>
+        <p class="Monk-benefits-description fade-in fade-right">Naturally, the pH of Monk Premium Water is alkaline, which is beneficial for digestion and overall health improvement.</p>
+    </div>
+
+       <!-- Benefit Card 3 -->
+       <div class="Monk-benefits-card">
+        <img src="drop.png" alt="drop" width="50px" height="50px" style="margin-bottom: 10px;" class="fade-in fade-left">
+        <h3 class="Monk-benefits-title fade-in fade-left">Trust & Quality Assurance</h3>
+        <p class="Monk-benefits-description fade-in fade-left">We guarantee quality and safety on all levels so that you receive the cleanest water possible. </p>
+    </div>
+    
+    <!-- Benefit Card 4 -->
+    <div class="Monk-benefits-card" style="opacity: 0;">
+        <!-- <svg class="Monk-benefits-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 21.7C11.3 21.7 10.7 21.4 10.2 20.9L7.5 18C7.1 17.6 6.8 17.1 6.6 16.5C6.4 15.9 6.4 15.4 6.5 14.8L7 12L4.8 9.8C4.3 9.3 4 8.7 4 8C4 7.3 4.3 6.7 4.8 6.2L6.2 4.8C6.7 4.3 7.3 4 8 4C8.7 4 9.3 4.3 9.8 4.8L12 7L14.2 4.8C14.7 4.3 15.3 4 16 4C16.7 4 17.3 4.3 17.8 4.8L19.2 6.2C19.7 6.7 20 7.3 20 8C20 8.7 19.7 9.3 19.2 9.8L17 12L17.5 14.8C17.6 15.4 17.6 15.9 17.4 16.5C17.2 17.1 16.9 17.6 16.5 18L13.8 20.9C13.3 21.4 12.7 21.7 12 21.7Z" fill="#4D90FE"/>
+            <path d="M12 18C11.4 18 10.9 17.8 10.5 17.4C10.1 17 9.9 16.5 9.9 15.9C9.9 15.3 10.1 14.8 10.5 14.4C10.9 14 11.4 13.8 12 13.8C12.6 13.8 13.1 14 13.5 14.4C13.9 14.8 14.1 15.3 14.1 15.9C14.1 16.5 13.9 17 13.5 17.4C13.1 17.8 12.6 18 12 18Z" fill="white"/>
+        </svg>
+        <h3 class="Monk-benefits-title">Calcium 0.5mg</h3>
+        <p class="Monk-benefits-description">Calcium is an important mineral that plays a vital role in maintaining healthy bones and teeth</p> -->
+    </div>
+</section>
+
+</div>
+
+<section class="OUR-JOURNEY">
+  <div class="OUR-JOURNEY-CONTAINER">
+    <div class="OUR-JOURNEY-CONTAINER-BOX_1 fade-in fade-left">
+   <img src="dusr.jpg" alt="">
+    </div>
+    <div class="OUR-JOURNEY-CONTAINER-BOX_2">
+  <h2 class="fade-in fade-right">The Monk Premium Odyssey: A Path to Purity</h2>
+  <p class="fade-in fade-right">All great odysseys begin with the first step, and for Monk Premium, the first step was in the direction of complete purity. Motivated by the philosophical learnings of monks who led their lives seeking balance, harmony, and enlightment, we began an expedition to produce something just as hallowed—Monk Water.</p>
+  <p class="fade-in fade-right">Our quest starts at the untouched peaks of nature, where the water flows untainted, mirroring the purity and serenity of the monks who have long understood the aspect of true well-being. We embarked with a vision—to bottle purity, to create a drink that does not just quench but brings life to the soul.</p>
+  <p class="fade-in fade-right">Just like the monk’s spiritual journey, we, too, Mindfully traveled the globe in search of the cleanest water source. Each sip of Monk Water goes hand in hand with our ardous and unforgiving battle towards achieving the highest level of quality, sustainability, and set nature. Water isn’t simply an aspect of hydration, to us, water is a sip of silence in the middle of chaos in life.  Monk Premium is not a brand—it's a lifestyle, an insistence that among all the din in the world, the most genuine things still remain, patiently waiting to be discovered. Every sip is a step towards harmony, towards something better.</p>
+  <p class="fade-in fade-right">This is our journey. This is Monk Premium.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="WHY-CHOOSE-SECTION" style="margin-top: 40px; padding: 15px;">
+    <h2 style="text-align: center;" class="fade-in fade-bottom">Why Choose Monk Premium Water?</h2>
+    <p style="max-width: 800px; margin: auto; text-align: center;" class="fade-in fade-bottom">MONK Premium Water provides the freshest and cleanest hydration experience. Drawn from natural springs and infused with vital minerals, our water is formulated to keep you healthy and energized. Taste the refreshing, crisp flavor that makes MONK stand out — because you deserve the best in every sip    </p>
+   <div class="WHY-CHOOSE-SECTION-CONTAINER">
+       <div class="WHY-CHOOSE-SECTION-CONTAINER-BOX fade-in fade-left">
+              <img src="water-scarcity.png" alt="">
+              <h4>Alkaline Water for Better Health </h4>
+              <p>Unlike artificially enhanced waters, Monk Premium maintains its naturally alkaline pH and of all waters balances its acidity, digests, and promotes the general well being of the individual. Drinking alkaline waters aids hydration, detoxification and helps the body function properly.</p>
+       </div>
+
+       <div class="WHY-CHOOSE-SECTION-CONTAINER-BOX fade-in fade-bottom">
+        <img src="hydration.png" alt="">
+        <h4>Hydration Essential Minerals </h4>
+        <p>Our water has vital refreshing minerals calcium, magnesium and potassium, that are greatly helpful for health and deeply required for hydration. These good minerals help maintain the flavor of the water and are critical to sustain the electrolyte balance of the body and recharge its energy.</p>
+ </div>
+
+ <div class="WHY-CHOOSE-SECTION-CONTAINER-BOX fade-in fade-right">
+    <img src="save-the-planet.png" alt="">
+    <h4>Sustainable & Eco-Friendly Practices </h4>
+    <p>Our dedication towards thr sustainability and responsible care for the environment sets us apart. The Monk Premium brand uses both water conservation sourcing methods as well as recyclable, eco-friendly packaging that drastically minimize plastic waste and greatly reduce carbon footprint. Supporting the Monk Premium Brand means helping to nurture and protect the environment.</p>
+</div>
+
+   </div>
+</section>
+
+
+<div class="BRAND_SHORTY_container">
+    <div class="BRAND_SHORTY_image_section fade-in fade-left">
+        <img src="dustbiin.jpg" alt="MONK Premium Water" class="BRAND_SHORTY_image">
+    </div>
+    <div class="BRAND_SHORTY_content_section">
+        <h2 class="BRAND_SHORTY_heading fade-in fade-right">Committed to Purity,<br>Trusted by You</h2>
+        <p class="BRAND_SHORTY_description fade-in fade-right">
+            MONK Premium Water is crafted with care, ensuring every bottle delivers the perfect balance of taste and quality. Join the growing community that trusts MONK for their daily hydration needs.
+        </p>
+        <div class="BRAND_SHORTY_stats_grid">
+            <div class="BRAND_SHORTY_stat_box fade-in fade-left">
+                <h3 class="BRAND_SHORTY_stat_title">Hotels and Restaurants</h3>
+                <div class="BRAND_SHORTY_stat_number" data-target="600+">600+</div>
+            </div>
+            <div class="BRAND_SHORTY_stat_box fade-in fade-right">
+                <h3 class="BRAND_SHORTY_stat_title">Corporates</h3>
+                <div class="BRAND_SHORTY_stat_number" data-target="269+">269+</div>
+            </div>
+            <div class="BRAND_SHORTY_stat_box fade-in fade-left">
+                <h3 class="BRAND_SHORTY_stat_title">Citizens</h3>
+                <div class="BRAND_SHORTY_stat_number" data-target="5000+">5000+</div>
+            </div>
+            <div class="BRAND_SHORTY_stat_box fade-in fade-right">
+                <h3 class="BRAND_SHORTY_stat_title">Cities</h3>
+                <div class="BRAND_SHORTY_stat_number" data-target="5">5</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="recyclable-section">
+
+<img src="recycle-banner.jpg" alt="">
+<div class="recyble-content">
+    <h2><b style="color: #058C2E;" class="fade-in fade-right">Pure Water,</b> Pure Life</h2>
+    <p class="fade-in fade-right">
+        Refresh and revitalize with our premium bottled water, sourced from natural springs and enriched with essential minerals for pure, crisp hydration.
+    </p>
+    <div class="Exploregames_btn fade-in fade-right">
+        <div class="text-wrapping">
+            <a id="headline01" class="headline01 rev01 box"
+                href="#">Learn More About
+            </a>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+<section class="license-logo-section" style="margin-top: 155px; padding: 50px 0px; background-color:#ebebeb;">
+    <div class="license-logo-container">
+        <div class="license-logo fade-in fade-left">
+            <img src="Fssai-license.png" alt="FSSAI Certification" title="FSSAI License">
+        </div>
+        <div class="license-logo fade-in fade-right">
+            <img src="Make-in-india.png" alt="ISI Certification" title="ISI Certification">
+        </div>
+        <div class="license-logo fade-in fade-left">
+            <img src="Untitled design (3).png" alt="Make in India" title="Make in India">
+        </div>
+        <div class="license-logo fade-in fade-right">
+            <img src="PET-1.png" alt="Swachh Bharat" title="Swachh Bharat">
+        </div>
+      
+    </div>
+</section>
+
+
+<section class="faq_container">
+    <!-- Decorative elements -->
+  
+    <!-- Header -->
+    <div class="faq_header">
+        <h2 class="faq_title">FAQs</h2>
+        <p class="faq_subtitle">Your Questions About Your Service Answered!</p>
+    </div>
+
+    <!-- FAQ List -->
+    <div class="faq_list">
+        <!-- FAQ Item 1 -->
+        <div class="faq_item">
+            <button class="faq_question">
+                
+                <span class="faq_icon"></span>
+            </button>
+            <div class="faq_answer">
+                <div class="faq_answer-content">
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq_item">
+            <button class="faq_question">
+            
+                <span class="faq_icon"></span>
+            </button>
+            <div class="faq_answer">
+                <div class="faq_answer-content">
+                  
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq_item">
+            <button class="faq_question">
+               
+                <span class="faq_icon"></span>
+            </button>
+            <div class="faq_answer">
+                <div class="faq_answer-content">
+                   
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq_item">
+            <button class="faq_question">
+         
+                <span class="faq_icon"></span>
+            </button>
+            <div class="faq_answer">
+                <div class="faq_answer-content">
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="faq_item">
+            <button class="faq_question">
+               
+                <span class="faq_icon"></span>
+            </button>
+            <div class="faq_answer">
+                <div class="faq_answer-content">
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="x8k2p" id="Contact-us">
+    <div class="y9m3n">
+        <div class="z4r7q">
+            <!-- Contact Form -->
+            <div class="w2h6v">
+                <h2 class="t5j8c fade-in fade-left">Get in Touch</h2>
+                <form action="email.php" method="POST">
+                    <div class="u7k9d fade-in fade-left">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+
+                    <div class="u7k9d fade-in fade-left">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    
+                     <div class="u7k9d fade-in fade-left">
+                        <input  type="tel" id="phone" name="phone"  placeholder="Phone No" pattern="[0-9+-]{10,}" required>
+                        <label for="email">Phone Number</label>
+                    </div>
+
+
+                    <div class="u7k9d fade-in fade-left">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+
+                    <button type="submit" class="v1p4m fade-in fade-left">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="s3f6g fade-in">
+                <h2 class="q8n2x">Contact Information</h2>
+                
+                <div class="p7m5k fade-in fade-right">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="o4l1j">
+                        <h4>Address</h4>
+                        <p> INDIA</p>
+                    </div>
+                </div>
+
+                <div class="p7m5k fade-in fade-right">
+                    <i class="fas fa-phone"></i>
+                    <div class="o4l1j">
+                        <h4>Phone</h4>
+                        <p>+91 1111111111</p>
+                    </div>
+                </div>
+
+                <div class="p7m5k fade-in fade-right">
+                    <i class="fas fa-envelope"></i>
+                    <div class="o4l1j">
+                        <h4>Email</h4>
+                        <p>info@monkwater.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container-4">
+        <div class="footer-content">
+            <!-- Logo Section -->
+            <div class="footer-section fade-in fade-left" style="gap:0px; border-right:1px #ffffff33 solid;">
+                <div class="logo-section">
+                    
+                    <div class="company-name"><img src="monk-logo-white.png"></div>
+                </div>
+                <p class="company-description">
+                   
+                </p>
+            </div>
+
+<style>
+    .footer-section ul li{
+        margin-top: 10px;
+    }
+     .footer-section ul li a{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        font-size: 14px !important;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    
+     
+      @media (max-width:767px){
+          
+   
+          .footer-section{
+              text-align: unset !important;
+              align-items: unset !important;
+          }
+       .footer-section{
+           border: none !important;
+       }
+       .mapp{
+           max-width: unset !important;
+       }
+}
+</style>
+            <!-- Social Icons Section -->
+            <div class="footer-section fade-in fade-top" style="gap:0px; border-right:1px #ffffff33 solid;">
+                <h3 class="social-title" style="color:#fff;">Quick Links</h3>
+                
+                <ul>
+                    <li><a href=""> 
+                    <i class="fa-solid fa-arrow-right"></i>
+                     </a></li>
+                     <li><a href="contact-us.html">
+                          <i class="fa-solid fa-arrow-right"></i>
+                         </a></li>
+                      <li><a href="privecy-policy.html">
+                           <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                      </li>
+                      <li><a href="terms-&-condition.html">
+                           <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                          </li>
+                      
+                </ul>
+               
+            </div>
+            
+            
+            
+               <!-- Social Icons Section -->
+            <div class="footer-section fade-in fade-top" style="gap:0px; border-right:1px #ffffff33 solid;">
+                <h3 class="social-title" style="color:#fff;">Our Services </h3>
+                
+                <ul>
+                   
+                    
+                      <li><a href="Water-Softener-Metter.html">
+                           <i class="fa-solid fa-arrow-right"></i>
+                         
+                          </a>
+                      </li>
+                      <li><a href="DM-Water-Plants.html">
+                           <i class="fa-solid fa-arrow-right"></i>
+                          
+                          </a>
+                          </li>
+                           <li><a href="https://fikarnot.co/WATER-PURIFIER.html"> 
+                    <i class="fa-solid fa-arrow-right"></i>
+             
+                    </a>
+                    </li>
+                          <!-- <li><a href="#Commercial">-->
+                          <!--<i class="fa-solid fa-arrow-right"></i>-->
+                          <!--COMMERCIAL & INDUSTRIAL RO WATER PURIFIER -->
+                          <!--</a>-->
+                          <!--</li>-->
+                      
+                </ul>
+               
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="footer-section newsletter fade-in fade-right">
+                <h3 class="social-title" style="color:#fff;">Subscribe to Our Newsletter</h3>
+                <form action="subscribe.php" method="POST">
+                    <input 
+                        type="email" 
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email" 
+                        required 
+                        aria-label="Email for newsletter"
+                    >
+                    <button type="submit" aria-label="Subscribe to newsletter">
+                        Subscribe
+                    </button>
+                </form>
+                <div class="mapp">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3560.021320401811!2d75.74015237543698!3d26.839274176690918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUwJzIxLjQiTiA3NcKwNDQnMzMuOCJF!5e0!3m2!1sen!2sin!4v1741879310322!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2025
+                <a href="https://monk.in/"> Monk </a>  All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/app.js"></script>
+
+
+   <script>
+    function openMenu() {
+        document.getElementById("mobileMenu").style.left = "0";
+        document.getElementById("overlay").style.display = "block";
+    }
+    function closeMenu() {
+        document.getElementById("mobileMenu").style.left = "-337px";
+        document.getElementById("overlay").style.display = "none";
+    }
+    
+</script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const fadeElements = document.querySelectorAll('.fade-in');
+  
+      const fadeInOnScroll = () => {
+        fadeElements.forEach(element => {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= window.innerHeight - 200) {
+            element.classList.add('visible');
+          }
+        });
+      };
+  
+      window.addEventListener('scroll', fadeInOnScroll);
+      fadeInOnScroll(); // Initial call to check visibility
+    });
+  </script>
+  
+<script>
+    // faq strat here 
+document.addEventListener('DOMContentLoaded', function() {
+    const faqItems = document.querySelectorAll('.faq_item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq_question');
+        
+        question.addEventListener('click', () => {
+            const isActive = item.classList.contains('active');
+            
+            // Close all items
+            faqItems.forEach(otherItem => {
+                otherItem.classList.remove('active');
+            });
+
+            // Open clicked item if it wasn't active
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
+});
+//faq ends here
+</script>
+  
+</body>
+</html>

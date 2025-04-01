@@ -1,0 +1,401 @@
+
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .BRAND_SHORTY_heading {
+        font-size: 2rem;
+    }
+
+    .BRAND_SHORTY_stat_number {
+        font-size: 2rem;
+    }
+    .license-logo {
+        width: 160px;
+        height: 110px;
+    }
+    
+    /* get section strt here*/
+
+    .x8k2p {
+        padding: 0rem 0;
+    }
+
+    .z4r7q {
+        grid-template-columns: 1fr;
+    }
+
+    .s3f6g {
+        order: -1;
+    }
+
+}
+
+
+
+@media (max-width: 767px){
+    /* annoucment-bar */
+    .call-email{
+        font-size: 14px;
+
+    }
+   
+    .call-email p{
+        background: #fff;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        gap: 18px !important;
+    }
+    .call-email i{
+        color: #000 !important;
+        justify-self:center;
+    }
+    .social-icon-bg{
+        width: 25px;
+        height: 25px;
+    }
+    .mobile-hidden{
+         display: none !important;
+    }
+    /* annoucment-bar */
+
+   /*header */
+   .logo{
+    width: 140px;
+    height: 75px;
+   }
+
+   .menu-icon{
+    display: block;
+   }
+   .nav-link{
+    display: none;
+   }
+   /*header */
+   /*banner slide */
+   .swiper-button-next,
+            .swiper-button-prev {
+                display: none;
+            } .fixed-call-button {
+                width: 50px;
+                height: 50px;
+                bottom: 15px;
+                right: 15px;
+            }
+            .swiper{
+                margin-top: 87px;
+            }
+   /* banner slide */
+
+   /*about section here */
+   .social-icons {
+    right: 10px;
+}
+h2{
+    text-align: left !important;
+}
+p{
+    text-align: left !important;
+}
+
+.social-icon-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon-1 i {
+    font-size: 20px;
+}
+
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.animated-text {
+    font-size: 2rem;
+}
+.mb-bg{
+background-image: url('../MONK_banner_1.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+min-height: 100vh; /* For scrolling demonstration */
+overflow-x: hidden;
+display: flex;
+position: relative;
+justify-content:center;
+}
+
+
+.fixed-section{
+    display: none;
+}
+.mb-content{
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 100%;
+ 
+
+}
+   /* about section here */
+
+
+   /* MONK Benifits section start here */
+   .Monk-benefits-card {
+    flex: 0 0 calc(50% - 40px);
+}
+
+.Monk-benefits-section {
+    flex-direction: column;
+}
+
+.Monk-benefits-center {
+    order: 1;
+    margin-bottom: 30px;
+}
+
+.Monk-benefits-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 2 !important;
+}
+.Monk-benefits-card:nth-child(2) {
+    margin-top: 0px;
+}
+.Monk-benefits-card:nth-child(4) {
+    margin-top: 0px;
+}
+.Monk-benefits-card:nth-child(5) {
+    margin-top: 426px;
+}
+.img-middle{
+    top: 460px;
+}
+.swiper{
+    height: 660px;
+    margin-top: 86px !important;
+}
+.WHY-CHOOSE-SECTION-CONTAINER-BOX{
+    flex: 58%;
+}
+.recyclable-section{
+    background: url(../bg-pure-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.recyclable-section img{
+    display: none;
+}
+.recyble-content{
+    width: 100%;
+    padding: 0px 8px;
+    background: rgba(255, 255, 255, 0.77);
+    height: 100%;
+}
+.license-logo-container {
+    gap: 10px;
+}
+
+.license-logo {
+    width: 140px;
+    height: 100px;
+}
+.license-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+   /* MONK Benifits section ends here */
+
+    /* footer */
+    .footer {
+        padding: 3rem 0 1.5rem 0;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .newsletter {
+        grid-column: span 1;
+    }
+
+    .footer-section {
+        align-items: center;
+        text-align: center;
+    }
+
+    .newsletter form {
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+     /* get section start here*/
+     .w2h6v,
+     .s3f6g {
+         padding: 30px 20px;
+     }
+ 
+     .t5j8c,
+     .q8n2x {
+         font-size: 2rem;
+     }
+ 
+     .p7m5k {
+         margin-bottom: 1.5rem;
+         padding: 15px;
+     }
+ 
+     .p7m5k i {
+         width: 40px;
+         height: 40px;
+         font-size: 1.5rem;
+     }
+ 
+     .o4l1j h4 {
+         font-size: 1.2rem;
+     }
+ 
+     .o4l1j p {
+         font-size: 0.7rem;
+     }
+     
+     .u7k9d input, .u7k9d textarea{
+         width: 90% !important;
+     }
+ 
+ .gs_title{
+     font-size: 1.5rem !important;
+ }
+ /*faq */
+ .faq_container {
+    padding: 60px 20px;
+}
+/*faq */
+
+}
+
+
+@media (max-width: 576px) {
+    .license-logo-container {
+        justify-content: space-around;
+    }
+    
+    .license-logo {
+        width: calc(50% - 15px);
+        height: 90px;
+        margin-bottom: 10px;
+    }
+    .license-logo-section {
+        margin-top: 0px !important;
+        padding: 10px 0px !important;
+    }
+     /* footer */
+     .newsletter form {
+        flex-direction: column;
+    }
+
+    .newsletter button {
+        width: 100%;
+    }
+    .rom{
+        width:100% !important;
+    } 
+}
+
+
+
+@media (max-width: 480px){
+    /*About section start here */
+    .social-icons {
+        right: 155px;
+        top: unset;
+        flex-direction: unset;
+        bottom: 0 !important;
+    }
+    
+    
+    .social-icon-1 {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .social-icon-1 i {
+        font-size: 18px;
+    }
+    
+    .icon-label {
+        font-size: 12px;
+        right: 45px;
+    }
+    
+    .animated-text {
+        font-size: 1.5rem;
+    }
+    .OUR-JOURNEY-CONTAINER-BOX_1{
+        flex: 100%;
+        padding: 15px;
+    }
+    .OUR-JOURNEY-CONTAINER-BOX_2{
+        flex: 100%;
+        padding: 15px;
+    }
+    
+    .BRAND_SHORTY_container {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .BRAND_SHORTY_image_section {
+        max-width: 100%;
+    }
+
+    .BRAND_SHORTY_content_section {
+        padding: 1rem 0;
+    }
+
+
+    .BRAND_SHORTY_stats_grid {
+        gap: 1rem;
+    }
+    .BRAND_SHORTY_stats_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .BRAND_SHORTY_stat_box {
+        padding: 1rem;
+    }
+  .Exploregames_btn a {
+        font-size: 14px;
+        min-width: 260px;
+        padding: 14px 25px;
+    }
+
+ .Exploregames_btn {
+        margin: 30px 0 0 0;
+    }
+
+
+    .license-logo-container {
+        gap: 8px;
+    }
+    
+    .license-logo {
+        width: calc(23% - 10px);
+        height: 80px;
+        padding: 0px;
+    }
+    /*About section ends here */
+}
+
+
+
